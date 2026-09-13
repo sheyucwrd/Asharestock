@@ -1,0 +1,2 @@
+﻿ticker,rmse_valid,direction_acc_valid,y_next_pred,pred_next_close,last_close,sigma60,z_of_pred,alert,alert_rule
+sh600809,0.0522799119353294,0.4671875,-0.0514102503657341,229.16069671918257,241.25,0.0272833776554243,-1.8843059745739823,True,|ret|≥1.8·σ60
