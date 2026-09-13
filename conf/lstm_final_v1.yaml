@@ -1,0 +1,31 @@
+root: "C:/Users/Administrator/Desktop/AshareSTockPrice/parquet_by_symbol"
+tickers: null
+tickers_file: null
+start: "2012-01-01"
+val_years: 3
+
+k: 0.8
+th_abs: 0.012
+acc_min: 0.55
+
+out_dir: "C:/Users/Administrator/Desktop/AshareSTockPrice/outputs_milstm_A_k08"
+topK: 20
+topN: 300
+batch_size: 36
+min_rows: 500
+resume: true
+
+win: 140
+epochs: 40
+bs: 128
+lr: 0.00035
+
+use_milstm: true
+lambda_dir: 0.10
+lambda_pnl: 0.05
+long_only: true
+fee: 0.0005
+
+hydra:
+  run:
+    dir: .
